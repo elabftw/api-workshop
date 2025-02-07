@@ -101,7 +101,7 @@ with open(CSV_PATH, newline='') as csvfile:
     csvreader = csv.DictReader(csvfile, delimiter=',', quotechar='"')
     # now we loop over each row in our CSV
     for row in csvreader:
-        if row["elabftw_id"]:
+        if row.get("elabftw_id"):
             itemId = row["elabftw_id"]
         else:
             response = itemsApi.post_item_with_http_info(
