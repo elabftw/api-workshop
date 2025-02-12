@@ -98,6 +98,7 @@ def getBodyFromRow(row) -> str:
 ######## WHERE THE MAGIC HAPPENS ##########
 ###########################################
 
+print("Starting import script...")
 # Note: use encoding='utf-8-sig' in the open() call if your file has BOM (Byte Order Mark)
 # Also make sure that the CSV file was saved as UTF-8 to avoid issues with special characters
 with open(CSV_PATH, newline='') as csvfile:
@@ -108,6 +109,7 @@ with open(CSV_PATH, newline='') as csvfile:
         if row.get("elabftw_id"):
             itemId = row["elabftw_id"]
         else:
+            print(f'Creating item with category {RESOURCE_CATEGORY_ID}')
             response = itemsApi.post_item_with_http_info(
                 body={"category_id": RESOURCE_CATEGORY_ID}
             )
@@ -122,4 +124,6 @@ with open(CSV_PATH, newline='') as csvfile:
         # for the "ID" column we match it to the "custom_id" property in elab
         # and the extra fields (metadata) is built with a function
         # the single line below will make all those changes at once
+        print(f'[-] Patching item {itemId}')
         itemsApi.patch_item(itemId, body={'title': row['Name'], 'body': getBodyFromRow(row), 'custom_id': row['ID'], 'metadata': getMetadataFromRow(row)})
+print("Everything imported successfully! :)")
