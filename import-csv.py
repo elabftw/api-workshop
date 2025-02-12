@@ -15,6 +15,10 @@ import elabapi_python
 import csv
 # we also need the json module for the metadata (extra fields) part
 import json
+import urllib3
+
+# disable warnings (they are scary)
+urllib3.disable_warnings(category=urllib3.exceptions.InsecureRequestWarning)
 
 #########################
 #         CONFIG        #
