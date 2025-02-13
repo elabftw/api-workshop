@@ -24,9 +24,6 @@ urllib3.disable_warnings(category=urllib3.exceptions.InsecureRequestWarning)
 API_HOST_URL = 'https://elab.local:3148/api/v2'
 # replace with your api key
 API_KEY = 'apiKey4Test'
-# this is the resource category where the entries will be created. Visit /api/v2/items_types to GET a list.
-# in this example, category with id 6 corresponds to "Antibody"
-RESOURCE_CATEGORY_ID = 6
 # path to the csv file, change this too
 CSV_PATH = './data/antibodies.csv'
 #########################
