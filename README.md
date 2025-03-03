@@ -1,21 +1,30 @@
-MIT License
+# eLabFTW API Workshop
 
-Copyright (c) 2025 Deltablot SASU
+This repository can be cloned to follow the API workshop proposed by [Deltablot](https://www.deltablot.com).
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Useful links
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+* Getting started: https://doc.elabftw.net/api.html
+* Api specification documentation: https://doc.elabftw.net/api/v2/
+* Python library repository: https://github.com/elabftw/elabapi-python
+* HTML documentation: https://doc.elabftw.net/api/elabapi-html/
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## Getting started
+
+Note: the commands below assume a GNU/Linux or MacOS operating system. If you are using Windows, it is recommended to ~ditch it~ use [WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
+
+~~~
+# Clone the repository on your computer
+git clone git@github.com:elabftw/elabftw-api-workshop
+
+# get into the folder
+cd elabftw-api-workshop
+
+# steps below are not required to execute curl.sh script
+
+# create a python virtual environment
+python -m venv venv
+
+# activate the environment
+source venv/bin/activate
+~~~
