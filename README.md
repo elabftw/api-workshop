@@ -33,7 +33,7 @@ pip install -r requirements.txt
 jupyter lab
 ~~~
 
-A new window has opened in your browser. Select `0-api-workshop-intro.ipynb` in the left pane to get started with the workshop.
+If you have followed the above commands, a new window has opened in your browser. Select `0-api-workshop-intro.ipynb` in the left pane to get started with the workshop.
 
 ## Getting started with Colab
 
