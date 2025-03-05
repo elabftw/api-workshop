@@ -23,7 +23,7 @@ git clone https://github.com/elabftw/api-workshop.git
 cd api-workshop
 
 # Create a python virtual environment
-python -m venv venv
+python3 -m venv venv
 
 # Activate the environment
 source venv/bin/activate
