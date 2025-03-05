@@ -2,6 +2,8 @@
 
 This repository can be cloned to follow the API workshop proposed by [Deltablot](https://www.deltablot.com).
 
+You can open and run notebooks with [Jupyter](https://jupyter.org/) on your computer (option 1) or use Google Colab (option 2).
+
 ## Useful links
 
 * Getting started: https://doc.elabftw.net/api.html
@@ -9,7 +11,7 @@ This repository can be cloned to follow the API workshop proposed by [Deltablot]
 * Python library repository: https://github.com/elabftw/elabapi-python
 * HTML documentation: https://doc.elabftw.net/api/elabapi-html/
 
-## Getting started locally
+## Option 1: open notebooks locally with Jupyter
 
 Note: the commands below assume a GNU/Linux or MacOS operating system. If you are using Windows, it is recommended to ~ditch it~ use [WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
 
@@ -35,11 +37,11 @@ jupyter lab
 
 If you have followed the above commands, a new window will have opened in your browser. Select `0-api-workshop-intro.ipynb` in the left pane to get started with the workshop.
 
-## Getting started with Colab
+## Option 2: open notebooks with Google Colab
 
-You can use Google Colab service to run the notebooks.
+You can use Google Colab service to open the Jupyter notebooks.
 
-1. Open https://colab.research.google.com/
+1. Access https://colab.research.google.com/
 2. Select GitHub
 3. Enter this GitHub URL in the the search bar: `elabftw/api-workshop` and press enter
 4. Select `0-api-workshop-intro.ipynb`
