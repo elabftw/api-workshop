@@ -35,7 +35,7 @@ pip install -r requirements.txt
 jupyter lab
 ~~~
 
-If you have followed the above commands, a new window will have opened in your browser. Select `0-api-workshop-intro.ipynb` in the left pane to get started with the workshop.
+If you have followed the above commands, a new window will have opened in your browser. Select `part1-api-workshop-intro.ipynb` in the left pane to get started with the workshop.
 
 ## Option 2: open notebooks with Google Colab
 
@@ -44,4 +44,4 @@ You can use Google Colab service to open the Jupyter notebooks.
 1. Access https://colab.research.google.com/
 2. Select GitHub
 3. Enter this GitHub URL in the the search bar: `elabftw/api-workshop` and press enter
-4. Select `0-api-workshop-intro.ipynb`
+4. Select `part1-api-workshop-intro.ipynb`
