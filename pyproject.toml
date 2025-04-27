@@ -1,0 +1,10 @@
+[project]
+name = "elabftw-api-workshop"
+version = "1.0.0"
+description = "eLabFTW API Workshop"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "elabapi-python>=5.1.0",
+    "jupyterlab>=4.4.1",
+]

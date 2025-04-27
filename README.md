@@ -15,6 +15,8 @@ You can open and run notebooks with [Jupyter](https://jupyter.org/) on your comp
 
 Note: the commands below assume a GNU/Linux or MacOS operating system. If you are using Windows, it is recommended to ~ditch it~ use [WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
 
+We will use `uv` to manage dependencies, see installation instructions: https://github.com/astral-sh/uv?tab=readme-ov-file#installation
+
 ~~~bash
 # Clone the repository on your computer
 git clone https://github.com/elabftw/api-workshop.git
@@ -22,17 +24,11 @@ git clone https://github.com/elabftw/api-workshop.git
 # Get into the folder
 cd api-workshop
 
-# Create a python virtual environment
-python -m venv venv
-
-# Activate the environment
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
+# Install dependencies with uv
+uv sync --frozen
 
 # Start Jupyterlab
-jupyter lab
+uv run jupyter lab
 ~~~
 
 If you have followed the above commands, a new window will have opened in your browser. Select `part1-api-workshop-intro.ipynb` in the left pane to get started with the workshop.
