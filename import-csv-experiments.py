@@ -76,15 +76,15 @@ with open(CSV_PATH, newline='') as csvfile:
     csvreader = csv.DictReader(csvfile, delimiter=',', quotechar='"')
     for row in csvreader:
         if row.get("elabftw_id"):
-            itemId = row["elabftw_id"]
+            expId = row["elabftw_id"]
         else:
             print(f'Creating experiment...')
             response = experimentApi.post_experiment_with_http_info(body={})
             locationHeaderInResponse = response[2].get("Location")
-            itemId = int(locationHeaderInResponse.split("/").pop())
-            row["elabftw_id"] = itemId
+            expId = int(locationHeaderInResponse.split("/").pop())
+            row["elabftw_id"] = expId
 
-        print(f'[-] Patching item {itemId}')
-        experimentApi.patch_experiment(itemId, body={'title': row['Name'], 'body': getBodyFromRow(row), 'custom_id': row['ID'], 'metadata': getMetadataFromRow(row)})
+        print(f'[-] Patching experiment {expId}')
+        experimentApi.patch_experiment(expId, body={'title': row['Name'], 'body': getBodyFromRow(row), 'custom_id': row['ID'], 'metadata': getMetadataFromRow(row)})
 
 print("Everything imported successfully! :)")

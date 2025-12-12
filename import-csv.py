@@ -111,7 +111,7 @@ with open(CSV_PATH, newline='') as csvfile:
         else:
             print(f'Creating item with category {RESOURCE_CATEGORY_ID}')
             response = itemsApi.post_item_with_http_info(
-                body={"category_id": RESOURCE_CATEGORY_ID}
+                body={'category': RESOURCE_CATEGORY_ID}
             )
             locationHeaderInResponse = response[2].get("Location")
             # that's our ID of the newly created resource
