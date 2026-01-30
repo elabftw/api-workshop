@@ -24,7 +24,11 @@ uv sync --frozen
 uv run jupyter lab
 ~~~
 
-If you have followed the above commands, a new window will have opened in your browser. Select `part1-api-workshop-intro.ipynb` in the left pane to get started with the workshop.
+If you have followed the above commands, a new window will have opened in your browser, entitled JupyterLab.
+
+In case it did not open, you can also access it directly at: `http://localhost:8888/`.
+
+In the left pane, double-click on the `part1-api-workshop-intro.ipynb` to get started with the workshop.
 
 ## Option 2: open notebooks with Google Colab
 
