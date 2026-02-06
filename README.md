@@ -34,6 +34,8 @@ In the left pane:
 - Select your language
 - double-click on the `part1-intro.ipynb` to get started with the workshop.
 
+<img src="assets/jupyterinit.webp" width='361'  alt='jupyter-select-parts'/>
+
 ## Option 2: open notebooks with Google Colab
 
 You can use Google Colab service to open the Jupyter notebooks.
@@ -44,7 +46,7 @@ You can use Google Colab service to open the Jupyter notebooks.
 
 ### 3. Enter this GitHub URL in the the search bar: `elabftw/api-workshop` and press enter
 ### 4. Select `part1-intro.ipynb`
-<img src="assets/googlecolabgithubrepo.webp" width='700'  alt='google-colab-githubselect'/>
+<img src="assets/googlecolabgithubrepo.webp" width='700'  alt='google-colab-reposelect'/>
 
 ## Useful links
 
