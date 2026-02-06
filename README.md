@@ -38,10 +38,13 @@ In the left pane:
 
 You can use Google Colab service to open the Jupyter notebooks.
 
-1. Access https://colab.research.google.com/
-2. Select GitHub
-3. Enter this GitHub URL in the the search bar: `elabftw/api-workshop` and press enter
-4. Select `part1-intro.ipynb`
+### 1. Access <a href='https://colab.research.google.com/' target='_blank'>Google's Colab Search</a> 
+### 2. Select GitHub
+<img src="assets/googlecollab.webp" width='901'  alt='google-collab-githubselect'/>
+
+### 3. Enter this GitHub URL in the the search bar: `elabftw/api-workshop` and press enter
+### 4. Select `part1-intro.ipynb`
+<img src="assets/googlecollabworkshop.webp" width='901'  alt='google-collab-githubselect'/>
 
 ## Useful links
 
