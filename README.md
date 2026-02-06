@@ -28,7 +28,11 @@ If you have followed the above commands, a new window will have opened in your b
 
 In case it did not open, you can also access it directly at: `http://localhost:8888/`.
 
-In the left pane, double-click on the `part1-api-workshop-intro.ipynb` to get started with the workshop.
+In the left pane:
+
+- double-click on the `notebooks` folder
+- Select your language
+- double-click on the `part1-intro.ipynb` to get started with the workshop.
 
 ## Option 2: open notebooks with Google Colab
 
