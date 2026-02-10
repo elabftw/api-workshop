@@ -44,17 +44,17 @@ In case it did not open, you can also access it directly at: `http://localhost:8
 
 ### 1. Double-click on the `notebooks` folder.
 
-<img src="images/navigate.webp" width='500' alt='navigate-notebooks'/>
+<img src="images/readme/navigate.webp" width='500' alt='navigate-notebooks'/>
 
 ### 2. Select your preferred language
 
 _(this only affects the eLabFTW screenshots; the notebook content is in English)_
 
-<img src="images/selectlang.webp" width='365' alt='select-language'/>
+<img src="images/readme/selectlang.webp" width='365' alt='select-language'/>
 
 ### 3. Double-click on the `part1-intro.ipynb` to get started with the workshop.
 
-<img src="images/jupyterinit.webp" width='361'  alt='jupyter-select-parts'/>
+<img src="images/readme/jupyterinit.webp" width='361'  alt='jupyter-select-parts'/>
 
 You now only need your eLabFTW instance and the Jupyter notebook open.
 You can close this page for better readability.
@@ -73,13 +73,13 @@ To open and browse the notebooks with Google Colab, you will need a Google accou
 Log in, then reopen the link above to access the search page.
 
 ### 2. Select GitHub
-<img src="images/googlecolab.webp" width='700'  alt='google-colab-githubselect'/>
+<img src="images/readme/googlecolab.webp" width='700'  alt='google-colab-githubselect'/>
 
 ### 3. Enter this repository's GitHub URL
 
 In the the search bar, type: `elabftw/api-workshop` and press enter
 ### 4. Select `part1-intro.ipynb`
-<img src="images/googlecolabgithubrepo.webp" width='700'  alt='google-colab-reposelect'/>
+<img src="images/readme/googlecolabgithubrepo.webp" width='700'  alt='google-colab-reposelect'/>
 
 ## Useful links
 
