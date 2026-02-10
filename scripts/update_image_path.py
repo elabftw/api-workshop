@@ -1,8 +1,8 @@
 import nbformat
 from pathlib import Path
 
-OLD_PREFIX = "../../assets/"
-NEW_PREFIX = "../../images/en/"
+OLD_PREFIX = "../../images/en/"
+NEW_PREFIX = "../../images/jp/"
 
 def update_notebook_image_paths(nb_path: Path) -> bool:
     """
