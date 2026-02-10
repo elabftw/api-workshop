@@ -1,8 +1,34 @@
+#!/usr/bin/env python
+# © Deltablot 2026
+# License: MIT
+
+"""
+This script normalizes and localizes image paths in Jupyter notebooks.
+
+What it does:
+- Scans Jupyter notebooks (.ipynb) under the notebooks/ directory
+- Only modifies Markdown cells (code cells are never touched)
+- Replaces image paths that still reference the legacy ../../assets/ directory
+  with the new standardized image layout under ../../images/
+
+Path rules:
+- Notebooks under notebooks/en/ will use:
+    ../../images/en/
+- Notebooks under notebooks/jp/ will use:
+    ../../images/jp/
+
+This allows English and Japanese notebooks to share the same content
+structure while referencing language-specific image assets.
+
+The script is safe to run multiple times (idempotent) and will only
+update notebooks that actually require changes.
+"""
+
 import nbformat
 from pathlib import Path
 
-OLD_PREFIX = "../../images/en/"
-NEW_PREFIX = "../../images/jp/"
+OLD_PREFIX = "../../images/jp/"
+NEW_PREFIX = "../../images/en/"
 
 def update_notebook_image_paths(nb_path: Path) -> bool:
     """
