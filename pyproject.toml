@@ -7,4 +7,5 @@ requires-python = ">=3.13"
 dependencies = [
     "elabapi-python>=5.1.0",
     "jupyterlab>=4.4.1",
+    "nbformat>=5.10.4",
 ]
