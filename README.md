@@ -83,7 +83,7 @@ In the the search bar, type: `elabftw/api-workshop` and press enter
 
 ## Useful links
 
-* Getting started: https://doc.elabftw.net/api.html
+* Getting started: https://doc.elabftw.net/tutorials/api-workshop
 * Api specification documentation: https://doc.elabftw.net/api/v2/
 * Python library repository: https://github.com/elabftw/elabapi-python
 * HTML documentation: https://doc.elabftw.net/api/elabapi-html/
